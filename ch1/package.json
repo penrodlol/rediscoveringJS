@@ -1,0 +1,14 @@
+{
+  "name": "chapter1",
+  "version": "1.0.0",
+  "description": "JavaScript Gotchas",
+  "main": "p1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "christian",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  }
+}
