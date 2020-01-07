@@ -67,3 +67,27 @@ Mutability
 - Mutability is common within the imperative programming paradigm; however, is a taboo for the functional programming paradigm.
     - Unfortunately, JS is a multi-paradigm programming language and supports both imperative and functional practices.
 ```
+
+## const
+
+```
+const
+- Used to declare immutable variables and follow the functional programming paradigm.
+
+Reach of const
+- Only primitive JS values are protected from change such as number or object.
+    - The actual object the variable references doesn't receive protection from const.
+- Similar to final in Java and readonly in C#.
+    - All of which protect primitive data types and variables being references.
+        - However, none protect the references variables
+
+Making Objects const
+- Immutable Objects
+    - Objects of type 'string' are immutable.
+        - Altering these objects won't be caught at runtime unless linter is provided.
+
+- freeze()
+    - The freeze method encapsulates an object and makes it immutable.
+    - It is only a shallow freeze, not a deep freeze.
+        - Only makes top-level object properties immutable.
+```
