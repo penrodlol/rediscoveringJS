@@ -1,4 +1,4 @@
-# Chapter 2
+# Chapter 1
 
 JavaScript Gotchas
 
