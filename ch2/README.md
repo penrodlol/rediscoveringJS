@@ -91,3 +91,28 @@ Making Objects const
     - It is only a shallow freeze, not a deep freeze.
         - Only makes top-level object properties immutable.
 ```
+
+## Safer Code with let and const
+
+```
+Immediately Invoked Function Expression (IIFE)
+- Self-Executing Anonymous Function
+- JS design pattern invoked by using var which doesn't use block scope.
+- Used to hide variables and functions from outside visibility.
+- Lines of code are wrapped inside an anonymous function that's immediately executed.
+```
+
+## Prefer const over let
+
+```
+Rules to follow when working with variables
+- Don't use var.
+- Use const wherever possible.
+- Use let where mutability is needed.
+
+Benefits to using const over let
+- Code is less prone to errors.
+- Code is easier to reason about.
+- The code prevents accidental or unintentional change to variables.
+- The code is safe to use in functional style code with arrow functions.
+```
